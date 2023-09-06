@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px; /* Adjust the height as needed */
+            background-color: #333; /* Background color for the hero section */
+            color: #fff; /* Text color */
+            text-align: center;
+        }
+
+        /* CSS for the hero image */
+        .hero img {
+            width: 100%; /* Ensure the image fills its container horizontally */
+            height: 100%; /* Ensure the image fills its container vertically */
+            object-fit: cover; /* Clip the image to fit the container */
+        }
+
+        /* CSS for the "Explore Now" button or link */
+        .hero a.button {
+            padding: 10px 20px; /* Adjust padding as needed */
+            background-color: #ff6600; /* Background color for the button */
+            color: #fff; /* Text color for the button */
+            text-decoration: none; /* Remove underline for links */
+            border-radius: 5px; /* Rounded corners for the button */
+            font-weight: bold; /* Make text bold */
+            transition: background-color 0.3s; /* Add a hover effect */
+        }
+
+        .hero a.button:hover {
+            background-color: #ff8800; /* Change background color on hover */
+        }
